@@ -19,7 +19,7 @@ pipeline {
           HELM_BUCKET=helm-weyjuuf7
           PACKAGE=demo-chart
           export AWS_REGION=ap-northeast-1
-         
+
           cp -r /home/helm/.helm ~
           helm repo add my-charts s3://${HELM_BUCKET}/charts
           helm repo add stable https://charts.helm.sh/stable

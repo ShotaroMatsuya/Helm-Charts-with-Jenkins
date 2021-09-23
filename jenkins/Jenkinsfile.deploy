@@ -5,7 +5,7 @@ pipeline {
       serviceAccount 'jenkins-helm'
       containerTemplate {
         name 'helm-pod'
-        image 'shotaromatsuya/helm-s3'
+        image 'wardviaene/helm-s3'
         ttyEnabled true
         command 'cat'
       }
