@@ -2,7 +2,7 @@
 DEFAULT_REGION="ap-northeast-1"
 AWS_REGION="${AWS_REGION:-${DEFAULT_REGION}}"
 
-BUCKET="helm-weyjuuf7"
+BUCKET="helm-hnj639z4"
 NODE_ROLE_ARN="arn:aws:iam::528163014577:role/nodes.kubernetes.multik8smatsuya.pw"
 
 export AWS_REGION
